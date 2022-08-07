@@ -151,6 +151,10 @@ body {
 	color: rgba(156, 64, 59, 0.3);
 }
 
+.yakor {
+	visibility: hidden;
+}
+
 .header {
 	position: fixed;
 	z-index: 1000;
@@ -222,10 +226,25 @@ body {
 	margin: 0 0 0 -40px;
 	border-radius: 5px;
 }
+.reviewsblock__text {
+	margin: 0 0 20px 0;
+}
 .reviewsblock__subtext {
 	width: 70%;
 	font-size: 15px;
-	margin: 0 15%;
+	margin: 10px 15% 0 15%;
+}
+.reviewsblock__navigation {
+	margin: 20px 0 0 0;
+	padding: 0 10%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+}
+.reviewsblock__menu .menu__item {
+	display: inline-block;
+	margin: 5px 20px;
+	color: #6a40ad;
 }
 
 .review {
