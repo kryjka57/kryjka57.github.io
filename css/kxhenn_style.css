@@ -157,10 +157,10 @@ body {
 }
 .header__menu {
 	position: relative;
-	left: -5px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	left: -10px;
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
 	-webkit-box-align: baseline;
@@ -177,14 +177,7 @@ body {
 	text-shadow: 0 0 5px white, 0 0 10px #6a40ad, 0 0 10px #6a40ad, 0 0 20px #6a40ad, 0 0 30px #6a40ad;
 }
 .header__menu .selected {
-	background: white;
-	font-size: 24px;
-	color: black;
-	padding: 6px;
-	border-radius: 20px;
-}
-.header__menu .selected:hover {
-	text-shadow: none;
+	text-shadow: 0 0 5px white, 0 0 10px #6a40ad, 0 0 10px #6a40ad, 0 0 20px #6a40ad, 0 0 30px #6a40ad;
 }
 
 .about {
